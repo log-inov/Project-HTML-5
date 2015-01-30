@@ -1,0 +1,535 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: arial;
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: arial;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    margin: 0 auto;
+    width: 80%;
+    mmax-width: 960px;
+    overflow: hidden;    
+}
+
+
+#main-header {
+    height: 50px;
+    background: #333;
+    margin-bottom: 20px;
+}
+
+#branding {
+    float: left;
+}
+
+#branding img{
+    width: 60px;
+    height: 60px;
+}
+
+#branding h1 {
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    float: right;
+    margin: 10px 0 10px 10px;
+
+}
+
+#main-nav {
+    float: right;
+    width: 50%;
+    padding-top: 12px;
+}
+
+#main-nav ul{
+    color: #fff;
+    float: right;
+
+}
+
+#main-nav li {
+    float: left;
+    padding: 3px 5px 0 5px;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: square;
+    
+}
+
+#main-nav a {
+    color: #fff;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    mmargin: 20px 0 0 0;
+    mpadding: 0 0 0 20px;
+}
+
+.search {
+    float: right;
+    margin-bottom: 10px;
+    
+}
+
+.search input[type="search"] {
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    height: 25px;
+    width: 85%;
+    margin-right: 5px;
+    float: right;
+}
+
+.search input[type="image"] {
+    width: 10%;
+    float: right;
+}
+
+#sub-nav {
+    margin: 10px auto;
+}
+
+#sub-nav li {
+    padding: 5px 0 5px 0;
+    border-bottom-style: dotted;
+    border-width: 1px;
+
+}
+
+#sub-nav a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ad img {
+    width: 100%;
+}
+
+#content {
+    float:left;
+    width: 63%;
+    border-radius: 10px;
+    border-color: #AAA;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px 10px 20px;
+}
+
+article img {
+    width: 100%;
+}
+article .meta {
+    font-size: 13px;
+    background: #111;
+    color: #fff;
+    padding: 0 5px;
+}
+
+article .meta span {
+    float:right;
+}
+
+article footer {
+
+}
+
+article .readmore {
+    font-size: 13px;
+    width: 98%;   
+    background: #eee;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+article .readmore:hover {
+    background: #ccc;
+}
+
+article hr {
+    border-style: dotted;
+}
+
+#main-footer {
+    background: #333333;
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 10px 0 20px 0;
+}
+
+#main-footer a {
+    color: white;
+}
+
+#main-footer .footer-left {
+    float: left;
+    width: 30%;
+}
+
+#main-footer .footer-right {
+    width: 70%;
+    float: right;
+}
+
+#main-footer .footer-nav {
+    float: left;
+    width: 31%;
+    padding: 20 px 20px;    
+}
+
+#main-footer .footer-nav li {
+    list-style: none;
+    padding: 5px 0 5px 0;
+    border-bottom: dotted;
+    border-bottom-color: #666666;
+    border-width: 1px;
+    margin: 0px 20px;
+}
+
+
+/*single-post*/
+
+.comment-left {
+    float: left;
+    width:10%;
+}
+
+.comment-left img {
+    width: 90%;
+    height: 90%;
+}   
+
+.comment-right {
+    float: right;
+    width: 88%;
+    font-size: 13px;
+}
+
+.contact-form {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form input, textarea {
+    border-width: 0;
+    padding: 2px;   
+    border-radius: 3px;
+    margin: 0 0px 0px 0;
+    width: 97%;
+}
+.contact-form input {
+    height: 22px;
+}
+
+/* add-post */
+
+.add-post input[type="text"], textarea, select {
+    border-color: #CCCCCC;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 0 0 0;   
+    border-radius: 3px;
+    margin: 0 0 0 0;
+    width: 97%;
+    height: 25px;
+}
+
+.add-post select {
+    width:97.25%;
+    height: 30px;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 900px) {
+
+    #sidebar {
+        float: none;
+        margin-bottom: 10px;
+        width:95%;
+    }
+
+    .ad img {
+    width: 95%;
+}
+
+    #content {
+        float: none;
+        width: 80%;
+    }
+
+    #main-nav {
+        width: 80%;
+
+    }
+
+    #branding h1 {
+        display: none;
+    }
+
+    #main-footer  .footer-left, #main-footer .footer-right{
+        float:none;
+        width:100%;
+    }
+    
+    #main-footer .footer-nav{
+        float:none;
+        width:100%;
+    }
+    
+    #main-footer .copy{
+        text-align:center;
+    }
+
+}
+
+@media only screen and (max-width: 580px){
+    #main-nav li{
+        padding:3px 3px 0 3px;
+        margin:0 5px;
+        font-size:13px;
+        list-style:none;
+    }
+    
+    #content{
+        float:none;
+        width:85%;
+    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both; /* does not alow to float for any objects on both sides of the folowing element */
+}
+
+.clearfix {
+    *zoom: 1; /* star property hack, sets the propoerty for IE5.5 - IE7 family only */
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
